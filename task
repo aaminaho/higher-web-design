@@ -9,6 +9,8 @@
   <header
     <h1>Welcome to My Website</h1>
   </header>
+
+  <main>
     <div>
       <audio controls>
         <source src="audio.wav" type="audio/wav" />
@@ -19,6 +21,7 @@
         <source src="video.mp4" type="video/mp4" />
       </video>
     </div>
+    <section>
     <div id="aboutUs">
       <h2>About Us</h2>
       <p>
@@ -26,7 +29,8 @@
         tags.
       </p>
     </div>
-
+    </section>
+    <section>
     <div id="services">
       <h2>Our Services</h2>
       <h3>Service 1</h3>
@@ -35,7 +39,8 @@
         <li>We offer speedy service</li>
         <li>We keep our costs low</li>
       </ol>
-
+      </section>
+      <section>
       <h3>Service 2</h3>
       <p>This is a description of Service 2.</p>
       <ul>
@@ -43,13 +48,15 @@
         <li>We keep our costs low</li>
       </ul>
     </div>
-
+    </section>
     <img src="image1.jpg" alt="Example Image" />
-
+    <section>
     <div id="learnMore">
       <h2>Learn more</h2>
       <a href="https://www.w3schools.org">Learn how to code HTML and CSS</a>
     </div>
+    </section>
+    </main>
 
     <footer>
     <h2>Contact Us</h2>
