@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <title>Soccer Player Registration</title>
+
+    <head>
+      <h1> Soccer Player Registration
+        </h1>
+      </head>
+    <form>
+      First name: <br>
+      <input type= "text" name= "firstname" required><br>
+    
+      <br>
+
+      Last name: <br>
+      <input type= "text" name= "lastname" required><br>
+    
+      <br>
+
+      Age: <br>
+      <input type= "number" name= "age" min= "8" max="16" required><br>
+    
+      <br>
+
+      Parent/Guardian Email: <br>
+      <input type= "email" name= "email" required><br>
+
+      <br>
+      
+      Mobile Phone Number: <br>
+      <input type= "text" name= "phonenumber" pattern="[0-9]{4}[0-9]{3}[0-9]{4}" required><br>
+
+      <br>
+
+      T-Shirt Size: <br>
+      <select name = "tshirt">
+
+        <option value = "XS">XS</option>
+        <option value = "S">S</option>
+        <option value = "M">M</option>
+        <option value = "L">L</option>
+        <option value = "XL">XL</option>
+
+      </select>
+
+      <br>
+      <br>
+
+      Previous Soccer Experience: <br>
+      <input type="radio" name="exp" value="none" checked> None <br>
+      <input type="radio" name="exp" value="1-2 years"> 1-2 years<br>
+      <input type="radio" name="exp" value="3+ years"> 3+ years<br>
+
+      <br>
+
+      <input type="submit" onclick="alert('Form submitted')" value="Submit"><br>
+
+  </form>
+  </body>
+</html>
