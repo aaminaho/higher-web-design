@@ -1,0 +1,53 @@
+<! DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8" />
+			<meta name="viewport" content="width=device-width* />
+			<script>
+				function mouseOver (letter) {
+					document.getElementById(letter).style.color = "red"; 
+					}
+				function mouseOut (letter) i
+					document-getElementById(letter).style.color = "black";
+					}
+				function mouseEvent(letter) {
+					document. getElementById(letter).style.color = "green";
+					}
+			</script>
+		</head>
+		< body>
+			<h1 id="a" onmouseover="mouseOver('a')" onmouseout-"mouseOut ('a')" onclick="mouseEvent ('a')">A‹/h1>
+			<h1 id="a2" onmouseover="mouseOver ('a2')"onmouseout="mouseOut ('a2' )" onclick="mouseEvent(*m*)*›M</h1>
+			<h1 id="m" onmouseover="mouseOver ('m')"onmouseout="mouseOut ('m')" onclick="mouseEvent(*e')"›E</h1>
+			<h1 id="i" onmouseover="mouseOver('i')"onmouseout="mouseOut ('i')" onclick=mouseEvent(*1*)*>L</h1>
+			<h1 id="n" onmouseover="mouseOver ('n')"onmouseout="mouseOut ('n')" onclick="mouseEvent(*1*)*›I</h1>
+			<h1 id="a3" onmouseover="mouseOver ('a2')"onmouseout="mouseOut ('a3')" onclick="mouseEvent ('a2*) "›A‹/h1>
+			<h1 id="h" onmouseover="mouseOver ('h')"onmouseout="mouseOut ('h')" onclick="mouseEvent ('a2*) "›A‹/h1>
+		</body>
+	</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
